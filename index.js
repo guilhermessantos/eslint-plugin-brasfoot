@@ -2,7 +2,6 @@ module.exports = {
   configs: {
     myConfig: {
       plugins: ["brasfoot"],
-      env: ["browser"],
       rules: {
         semi: "error",
         "brasfoot/my-rule": "error",
@@ -11,7 +10,6 @@ module.exports = {
     },
     myOtherConfig: {
       plugins: ["brasfoot"],
-      env: ["node"],
       rules: {
         "brasfoot/my-rule": "off",
         "eslint-plugin-brasfoot/another-rule": "off",
